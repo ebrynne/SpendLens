@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/tabHost"
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <TabWidget android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@android:id/tabs" />
+    
+    <FrameLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@android:id/tabcontent" >
+	    
+        <include android:id="@+id/home_tab" layout="@layout/home_view" />
+        <include android:id="@+id/history_tab" layout="@layout/history_view" />
+        <include android:id="@+id/settings_tab" layout="@layout/settings_view" />
+        
+     </FrameLayout>  
+</TabHost>

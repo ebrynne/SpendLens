@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">SpendLens</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_slcore">SLCoreActivity</string>
+    <string name="enter_expense">Enter Expense</string>
+    <string name="set_budget_label">Daily Budget</string>
+    <string name="add_funds_label">Add Funds</string>
+    <string name="add_funds_field">Enter bonus value</string>
+    <string name="button_add_expense">Spend!</string>
+    <string name="set_budget_field_text">Enter budget value</string>
+    <string name="daily_remaining">Remaining:</string>
+	<string name="daily_budget">Budget:</string>
+	<string name="daily_spent">Spent:</string>
+	<string name="allow_location_label">Store location of purchases:</string>
+</resources>
