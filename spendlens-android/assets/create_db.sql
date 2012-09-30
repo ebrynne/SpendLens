@@ -1,0 +1,15 @@
+CREATE TABLE purchases{
+	_id INTEGER PRIMARY KEY AUTOINCREMENT,
+	date DATE NOT NULL,
+	amount FLOAT NOT NULL,
+	tag INTEGER,
+	lat FLOAT,
+	long FLOAT,
+	uploaded INTEGER
+}
+
+CREATE TABLE summaries{
+	date DATE NOT NULL,
+	spent FLOAT NOT NULL,
+	past_budget FLOAT NOT NULL
+}

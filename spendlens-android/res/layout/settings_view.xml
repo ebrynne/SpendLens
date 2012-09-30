@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingTop="100px" >
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<EditText android:id="@+id/set_budget_field"
+	        android:layout_weight="1"
+       		android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal"
+	        android:hint="@string/set_budget_field_text"/> 
+	     <Button android:id="@+id/set_budget_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/set_budget_label" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<EditText android:id="@+id/add_funds"
+	        android:layout_weight="1"
+       		android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal"
+	        android:hint="@string/add_funds_field" /> 
+	    <Button android:id="@+id/add_funds_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/add_funds_label" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<TextView android:layout_weight="1"
+       		android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/allow_location_label" /> 
+	    <CheckBox android:id="@+id/allow_location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+		    
+</LinearLayout>
