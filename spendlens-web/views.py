@@ -1,10 +1,5 @@
-from flask import redirect, url_for, render_template, flash, request, Flask
-
-
-app=Flask(__name__)
-app.secret_key = 'Ajlafhkuefq&&777e2yf87kfewhukRT'
-
-USER_NAMES = ["ebrynne@gmail.com", "epurcer"]
+from flask import redirect, url_for, render_template, flash, request
+from spendlens-web import app
 
 @app.route("/")
 def index():
@@ -14,7 +9,7 @@ def index():
 def history():
   return render_template("history.html")
 
-@app.route("/settings")
+@app.route("/settings",)
 def settings():
   return render_template("settings.html")
 
@@ -29,10 +24,3 @@ def login():
 @app.route("/register")
 def register():
   return render_template("register.html")
-
-if __name__ == '__main__':
-  app.run(host='0.0.0.0', debug=True)
-
-
-
-

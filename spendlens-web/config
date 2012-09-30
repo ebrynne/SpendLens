@@ -1,0 +1,4 @@
+SECRET_KEY = 'Ajlafhkuefq&&777e2yf87kfewhukRT'
+USER_NAMES = ["ebrynne@gmail.com", "epurcer"]
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'mysql://epurcer:komodoed@mysql-1.evanbrynne.com/spendlens_dev'
