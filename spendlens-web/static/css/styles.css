@@ -1,0 +1,15 @@
+.header-login{
+    float:right;
+    margin: 4px 0px 0px 0px;
+
+}
+
+.header-login button.btn{
+    margin-top: 0px !important;
+}
+
+
+.fixed-info{
+    height: 512px;
+}
+
