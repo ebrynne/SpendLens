@@ -1,5 +1,5 @@
 from flask import redirect, url_for, render_template, flash, request
-from spendlens-web import app
+from spendlens_web import app
 
 @app.route("/")
 def index():

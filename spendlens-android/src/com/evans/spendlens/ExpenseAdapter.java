@@ -24,7 +24,8 @@ public class ExpenseAdapter extends ArrayAdapter<Expense> {
      public View getView(int position, View convertView, ViewGroup parent) {
              View v = convertView;
              if (v == null) {
-                 LayoutInflater vi = (LayoutInflater)getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                 //LayoutInflater vi = (LayoutInflater)getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                 LayoutInflater vi = LayoutInflater.from(getContext());
                  v = vi.inflate(R.layout.daily_expense_row, null);
              }
              Expense e = items.get(position);
@@ -34,7 +35,7 @@ public class ExpenseAdapter extends ArrayAdapter<Expense> {
                      if (dt != null) {
                            dt.setText(e.getDate());                            }
                      if(ct != null){
-                           ct.setText(e.getCost());
+                           ct.setText(String.valueOf(e.getAmount()));
                      }
              }
              return v;
