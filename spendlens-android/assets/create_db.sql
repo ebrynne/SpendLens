@@ -1,15 +1,3 @@
-CREATE TABLE purchases{
-	_id INTEGER PRIMARY KEY AUTOINCREMENT,
-	date DATE NOT NULL,
-	amount FLOAT NOT NULL,
-	tag INTEGER,
-	lat FLOAT,
-	long FLOAT,
-	uploaded INTEGER
-}
+CREATE TABLE expenses( _id INTEGER PRIMARY KEY AUTOINCREMENT, date STRING NOT NULL, amount REAL NOT NULL, tag INTEGER, lat REAL, long REAL, uploaded INTEGER );
 
-CREATE TABLE summaries{
-	date DATE NOT NULL,
-	spent FLOAT NOT NULL,
-	past_budget FLOAT NOT NULL
-}
+CREATE TABLE summaries( date STRING NOT NULL, spent REAL NOT NULL, past_budget REAL NOT NULL );

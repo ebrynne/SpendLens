@@ -3,8 +3,8 @@ package com.evans.spendlens;
 public class Expense {
 	    
     private String date;
-    private String cost;
-    private String tag;
+    private float amount;
+    private int tag;
     
     public String getDate() {
         return date;
@@ -12,16 +12,25 @@ public class Expense {
     public void setDate(String date) {
         this.date = date;
     }
-    public String getCost() {
-        return cost;
+    public float getAmount() {
+        return amount;
     }
-    public void setCost(String cost) {
-        this.cost = cost;
+    public void setAmount(float amount) {
+        this.amount = amount;
     }
-	public String getTag() {
+    
+    public void setAmount(String amount){
+    	this.amount = Float.parseFloat(amount);
+    }
+    
+	public int getTag() {
 		return tag;
 	}
-	public void setTag(String tag) {
+	public void setTag(int tag) {
 		this.tag = tag;
+	}
+	
+	public void setTag(String tag) {
+		this.tag = Integer.parseInt(tag);
 	}
 }

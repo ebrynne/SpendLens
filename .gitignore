@@ -1,3 +1,5 @@
-.metadata
+.idea
 *.swp
+.metadata
 *.pyc
+*.class

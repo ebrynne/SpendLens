@@ -15,24 +15,36 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int add_funds=0x7f07000e;
-        public static final int add_funds_button=0x7f07000f;
-        public static final int allow_location=0x7f070010;
+        public static final int G1=0x7f070007;
+        public static final int G2=0x7f070008;
+        public static final int G3=0x7f070009;
+        public static final int G4=0x7f07000b;
+        public static final int G5=0x7f07000c;
+        public static final int G6=0x7f07000d;
+        public static final int add_funds=0x7f070017;
+        public static final int add_funds_button=0x7f070018;
+        public static final int allow_location=0x7f070019;
         public static final int costtext=0x7f070005;
-        public static final int daily_remain_val=0x7f07000a;
-        public static final int daily_spent_val=0x7f070009;
+        public static final int daily_remain_val=0x7f070013;
+        public static final int daily_spent_val=0x7f070012;
         public static final int datetext=0x7f070004;
-        public static final int expense_button=0x7f070007;
-        public static final int expense_field=0x7f070006;
+        public static final int expense_button=0x7f070010;
+        public static final int expense_field=0x7f07000f;
+        public static final int history_list=0x7f07000e;
         public static final int history_tab=0x7f070002;
-        public static final int home_budget=0x7f07000b;
+        public static final int home_budget=0x7f070014;
         public static final int home_tab=0x7f070001;
-        public static final int menu_settings=0x7f070011;
-        public static final int set_budget_button=0x7f07000d;
-        public static final int set_budget_field=0x7f07000c;
+        public static final int menu_settings=0x7f07001d;
+        public static final int set_budget_button=0x7f070016;
+        public static final int set_budget_field=0x7f070015;
         public static final int settings_tab=0x7f070003;
+        public static final int sumdatetext=0x7f07001a;
+        public static final int sumdiftext=0x7f07001c;
+        public static final int sumspenttext=0x7f07001b;
         public static final int tabHost=0x7f070000;
-        public static final int today_list=0x7f070008;
+        public static final int tag_drawer1=0x7f070006;
+        public static final int tag_drawer2=0x7f07000a;
+        public static final int today_list=0x7f070011;
     }
     public static final class layout {
         public static final int activity_slcore=0x7f030000;
@@ -40,25 +52,31 @@ public final class R {
         public static final int history_view=0x7f030002;
         public static final int home_view=0x7f030003;
         public static final int settings_view=0x7f030004;
+        public static final int summary_row=0x7f030005;
     }
     public static final class menu {
         public static final int activity_slcore=0x7f060000;
     }
     public static final class string {
-        public static final int add_funds_field=0x7f040007;
-        public static final int add_funds_label=0x7f040006;
-        public static final int allow_location_label=0x7f04000d;
+        public static final int G1=0x7f04000d;
+        public static final int G2=0x7f04000e;
+        public static final int G3=0x7f04000f;
+        public static final int G4=0x7f040010;
+        public static final int G5=0x7f040011;
+        public static final int G6=0x7f040012;
+        public static final int add_funds_field=0x7f040006;
+        public static final int add_funds_label=0x7f040005;
+        public static final int allow_location_label=0x7f04000c;
         public static final int app_name=0x7f040000;
-        public static final int button_add_expense=0x7f040008;
-        public static final int daily_budget=0x7f04000b;
-        public static final int daily_remaining=0x7f04000a;
-        public static final int daily_spent=0x7f04000c;
-        public static final int enter_expense=0x7f040004;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
-        public static final int set_budget_field_text=0x7f040009;
-        public static final int set_budget_label=0x7f040005;
-        public static final int title_activity_slcore=0x7f040003;
+        public static final int button_add_expense=0x7f040007;
+        public static final int daily_budget=0x7f04000a;
+        public static final int daily_remaining=0x7f040009;
+        public static final int daily_spent=0x7f04000b;
+        public static final int enter_expense=0x7f040003;
+        public static final int menu_settings=0x7f040001;
+        public static final int set_budget_field_text=0x7f040008;
+        public static final int set_budget_label=0x7f040004;
+        public static final int title_activity_slcore=0x7f040002;
     }
     public static final class style {
         public static final int AppTheme=0x7f050000;
